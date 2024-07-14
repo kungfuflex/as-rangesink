@@ -28,3 +28,7 @@ export function _start(): void {
   // surplus after transfer amount is exhausted, is 0 if source is exhausted first, and source.index source.offset are updated to indicate position in remaining ranges
 }
 ```
+
+## Author
+
+flex
