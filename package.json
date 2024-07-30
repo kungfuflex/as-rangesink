@@ -12,12 +12,7 @@
     "postinstall": "yarn build"
   },
   "dependencies": {
-    "metashrew-as": "https://github.com/sandshrewmetaprotocols/metashrew-as"
-  },
-  "devDependencies": {
-    "@types/chai": "4",
-    "@types/mocha": "^10.0.6",
-    "@types/node": "^20.10.6",
+    "metashrew-as": "https://github.com/sandshrewmetaprotocols/metashrew-as",
     "as-bignum": "^0.3.0",
     "assemblyscript": "^0.27.22",
     "assemblyscript-prettier": "^3.0.1",
@@ -26,13 +21,18 @@
     "fs-extra": "^11.2.0",
     "js-sha3": "^0.9.3",
     "metashrew-test": "https://github.com/sandshrewmetaprotocols/metashrew-test",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
     "mocha": "^10.5.2",
     "nice-repl": "^0.1.2",
-    "npm-run-all": "^4.1.5",
     "prettier": "^3.1.1",
     "ts-mocha": "^10.0.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "@types/chai": "4",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.6"
   },
   "name": "as-rangesink",
   "description": "as-rangesink"
